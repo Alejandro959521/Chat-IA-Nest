@@ -12,7 +12,7 @@ export const prosConsDicusserUseCase = async (
 ) => {
 
     const response = await openai.chat.completions.create({
-        model: 'llama-3.1-8b-instant',
+        model: 'openai/gpt-oss-20b',
         temperature: 0.8,
         max_tokens: 500,
       
