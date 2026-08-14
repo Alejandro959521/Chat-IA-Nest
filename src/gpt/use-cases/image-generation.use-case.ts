@@ -22,9 +22,8 @@ export const imageGenerationUseCase = async (options: Options) => {
                 `https://api.cloudflare.com/client/v4/accounts/6b80d5f5ed352040d6750cb56d610246/ai/run/@cf/black-forest-labs/flux-1-schnell`,
                 {
                     prompt: prompt,
-                    width: 1024,
-                    height: 1024,
-                    num_steps: 4,
+                    
+                    
                 },
                 {
                     headers: {
