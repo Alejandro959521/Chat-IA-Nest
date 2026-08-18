@@ -2,19 +2,22 @@
 
 Backend API for an AI-powered chat application built with NestJS. Connects to the repository [Chat-IA-React](https://github.com/Alejandro959521/Chat-IA-React) (frontend).
 
+**Demo en vivo:** [chat-ia-react.vercel.app](https://chat-ia-react.vercel.app)
+
 ## Features
 
 - AI-powered chat response generation
 - Image upload and processing (Multer + Sharp)
 - Data validation with class-validator / class-transformer
-
+- Centralized configuration with @nestjs/config
 
 ## Technologies
 
 - NestJS 11
 - TypeScript
 - SDK de OpenAI 
-- Multer, Sharp
+- Multer (file uploads)
+- Class-validator / Class-transformer
 
 ## Installation
 
